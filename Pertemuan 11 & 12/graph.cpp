@@ -81,6 +81,7 @@ int main() {
    cout<<"==============================="<<endl;
    cout<<"Masukkan jumlah Node: ";
    cin >> jumlah;
+   
    for(int i=1; i<= jumlah; i++){
        cout<<"Masukkan Node ke-"<<i<<" : ";
        cin >> data;
@@ -95,6 +96,5 @@ int main() {
     cout<<"InOrder: "; inOrder(root); cout<<endl;
     cout<<"PostOrder: "; postOrder(root); cout<<endl;
 
-    
     return 0;
 }
