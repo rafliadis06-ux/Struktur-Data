@@ -61,11 +61,11 @@ void printTree(Node* root, int space = 0) {
     if(root == nullptr) 
         return;
 
-    space += 8;
+    space += 10;
     printTree(root->right, space);
     cout << endl;
 
-    for (int i = 8; i < space; i++){
+    for (int i = 10; i < space; i++){
         cout << " ";
     }
 
@@ -81,7 +81,7 @@ int main() {
    cout<<"==============================="<<endl;
    cout<<"Masukkan jumlah Node: ";
    cin >> jumlah;
-   
+
    for(int i=1; i<= jumlah; i++){
        cout<<"Masukkan Node ke-"<<i<<" : ";
        cin >> data;
